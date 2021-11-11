@@ -1,0 +1,5082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/nikos.chan/Documents/kicad/traintracker/traintracker.sch</source>
+    <date>Thursday, 04 November 2021 at 03:22:24</date>
+    <tool>Eeschema (5.1.10-1-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>traintracker.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/grid1/" tstamps="/615F9861/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>grid1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/grid2/" tstamps="/627E4EBD/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>grid2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/grid3/" tstamps="/62968B7F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>grid3.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ESP32-WROOM-32</value>
+      <footprint>RF_Module:ESP32-WROOM-32</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C701341</field>
+      </fields>
+      <libsource lib="RF_Module" part="ESP32-WROOM-32" description="RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6157E57F</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61580D76</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C19702</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61583E3D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61584186</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6158637C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C6186</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LM1117-3.3" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61596A59</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C19702</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6159B3F5</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C19702</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6159CD92</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB_B_Micro</value>
+      <footprint>custom:USB_Micro-B_shouhan_microxnj</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C404969</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615A029E</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6157FF9A</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>0-10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61593D23</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615BAE26</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615BC04D</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615BCA60</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615BD368</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>SERIAL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615CD34F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6158A5E5</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615908CF</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615BBFBC</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615BBFC3</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615C125D</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615C1264</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615C5507</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615C550E</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629D577E</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629D5785</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>MODE</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629F10E8</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629FB9BE</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>LED_SPI_3.3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A724B0</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>5V</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A8AA94</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>BOOT/RST</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C318884</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6158567F</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23182</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B173A0</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23182</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B7A47C</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23182</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B95C75</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23182</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BAA888</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23182</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BC55DF</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616063F7</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6160D255</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61612CBB</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61618217</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6161D98E</tstamp>
+    </comp>
+    <comp ref="TP55">
+      <value>MOSI_5V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616821B4</tstamp>
+    </comp>
+    <comp ref="TP58">
+      <value>SCLK_5V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6168B14D</tstamp>
+    </comp>
+    <comp ref="TP56">
+      <value>CS0_5V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61691A8F</tstamp>
+    </comp>
+    <comp ref="TP57">
+      <value>CS2_5V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616A37A2</tstamp>
+    </comp>
+    <comp ref="TP59">
+      <value>CS1_5V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616976AA</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TM1638</value>
+      <footprint>Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C19187</field>
+      </fields>
+      <libsource lib="traintracker-rescue" part="TM1638-tm1638" description=""/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>615FE6D7</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>615FF622</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616006D7</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61601558</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61601840</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61604FB0</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61604FB6</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61604FBC</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61604FC2</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616056CC</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616056D2</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6160908C</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61609096</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616090A0</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616090AA</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616090B4</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616090BE</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616090C8</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616090D2</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6160FEB8</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6160FEBE</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6160FEC4</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6160FECA</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6160FED0</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6160FED6</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6160FEDC</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6160FEE2</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6160FEE8</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6160FEEE</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6161C950</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6161C956</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6161C95C</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6161C962</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6161C968</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6161C96E</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6161C974</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6161C97A</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6161C980</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6161C986</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61660C24</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61660C2A</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61660C30</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61660C36</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61660C3C</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61660C42</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61660C48</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61660C4E</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61660C54</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61660C5A</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616643ED</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616643F3</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616765F4</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616765FA</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61676600</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61676606</tstamp>
+    </comp>
+    <comp ref="D57">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6167660C</tstamp>
+    </comp>
+    <comp ref="D58">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61676612</tstamp>
+    </comp>
+    <comp ref="D59">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61676618</tstamp>
+    </comp>
+    <comp ref="D60">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6167661E</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6167A50A</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6167A510</tstamp>
+    </comp>
+    <comp ref="D63">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6167A516</tstamp>
+    </comp>
+    <comp ref="D64">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6167A51C</tstamp>
+    </comp>
+    <comp ref="D65">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6167A522</tstamp>
+    </comp>
+    <comp ref="D66">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6167A528</tstamp>
+    </comp>
+    <comp ref="D67">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6167A52E</tstamp>
+    </comp>
+    <comp ref="D68">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616809CF</tstamp>
+    </comp>
+    <comp ref="D69">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616809D5</tstamp>
+    </comp>
+    <comp ref="D70">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616809DB</tstamp>
+    </comp>
+    <comp ref="D71">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>616809E1</tstamp>
+    </comp>
+    <comp ref="D72">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61684D6F</tstamp>
+    </comp>
+    <comp ref="D73">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61684D75</tstamp>
+    </comp>
+    <comp ref="D74">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61684D7B</tstamp>
+    </comp>
+    <comp ref="D75">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61684D81</tstamp>
+    </comp>
+    <comp ref="D76">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61684D87</tstamp>
+    </comp>
+    <comp ref="D77">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61684D8D</tstamp>
+    </comp>
+    <comp ref="D78">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61684D93</tstamp>
+    </comp>
+    <comp ref="D79">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61684D99</tstamp>
+    </comp>
+    <comp ref="D80">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61684D9F</tstamp>
+    </comp>
+    <comp ref="D81">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61684DA5</tstamp>
+    </comp>
+    <comp ref="D82">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6171F9E9</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61B64103</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C134723</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>61B9C360</tstamp>
+    </comp>
+    <comp ref="TP18">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>62282A6A</tstamp>
+    </comp>
+    <comp ref="TP17">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>62282A64</tstamp>
+    </comp>
+    <comp ref="TP16">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>62252CCA</tstamp>
+    </comp>
+    <comp ref="TP15">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>62252CC4</tstamp>
+    </comp>
+    <comp ref="TP14">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>62222DD2</tstamp>
+    </comp>
+    <comp ref="TP13">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>62222DCC</tstamp>
+    </comp>
+    <comp ref="TP12">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>621F321C</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>621F3216</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>621F2439</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>621F0CBC</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>625407E9</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>62542896</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>625435AB</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>6254400E</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>62545C36</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>62545C3C</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>62545C42</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid1/" tstamps="/615F9861/"/>
+      <tstamp>62545C48</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TM1638</value>
+      <footprint>Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C19187</field>
+      </fields>
+      <libsource lib="traintracker-rescue" part="TM1638-tm1638" description=""/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628382C0</tstamp>
+    </comp>
+    <comp ref="D83">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628382C8</tstamp>
+    </comp>
+    <comp ref="D84">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628382CE</tstamp>
+    </comp>
+    <comp ref="D86">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628382DA</tstamp>
+    </comp>
+    <comp ref="D87">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628382E0</tstamp>
+    </comp>
+    <comp ref="D88">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628382E6</tstamp>
+    </comp>
+    <comp ref="D89">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628382EC</tstamp>
+    </comp>
+    <comp ref="D90">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628382F2</tstamp>
+    </comp>
+    <comp ref="D91">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628382F8</tstamp>
+    </comp>
+    <comp ref="D92">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628382FE</tstamp>
+    </comp>
+    <comp ref="D93">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838304</tstamp>
+    </comp>
+    <comp ref="D94">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283830A</tstamp>
+    </comp>
+    <comp ref="D95">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838310</tstamp>
+    </comp>
+    <comp ref="D96">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838316</tstamp>
+    </comp>
+    <comp ref="D97">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283831C</tstamp>
+    </comp>
+    <comp ref="D98">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838322</tstamp>
+    </comp>
+    <comp ref="D99">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838328</tstamp>
+    </comp>
+    <comp ref="D100">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283832E</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838334</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283833A</tstamp>
+    </comp>
+    <comp ref="D103">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838340</tstamp>
+    </comp>
+    <comp ref="D104">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838346</tstamp>
+    </comp>
+    <comp ref="D105">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283834C</tstamp>
+    </comp>
+    <comp ref="D106">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838352</tstamp>
+    </comp>
+    <comp ref="D107">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838358</tstamp>
+    </comp>
+    <comp ref="D108">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283835E</tstamp>
+    </comp>
+    <comp ref="D109">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838364</tstamp>
+    </comp>
+    <comp ref="D110">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283836A</tstamp>
+    </comp>
+    <comp ref="D121">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838370</tstamp>
+    </comp>
+    <comp ref="D122">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838376</tstamp>
+    </comp>
+    <comp ref="D123">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283837C</tstamp>
+    </comp>
+    <comp ref="D124">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838382</tstamp>
+    </comp>
+    <comp ref="D125">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838388</tstamp>
+    </comp>
+    <comp ref="D126">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283838E</tstamp>
+    </comp>
+    <comp ref="D127">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838394</tstamp>
+    </comp>
+    <comp ref="D128">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283839A</tstamp>
+    </comp>
+    <comp ref="D129">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628383A0</tstamp>
+    </comp>
+    <comp ref="D130">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628383A6</tstamp>
+    </comp>
+    <comp ref="D111">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628383AC</tstamp>
+    </comp>
+    <comp ref="D112">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628383B2</tstamp>
+    </comp>
+    <comp ref="D113">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628383B8</tstamp>
+    </comp>
+    <comp ref="D114">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628383BE</tstamp>
+    </comp>
+    <comp ref="D115">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628383C4</tstamp>
+    </comp>
+    <comp ref="D116">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628383CA</tstamp>
+    </comp>
+    <comp ref="D117">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628383D0</tstamp>
+    </comp>
+    <comp ref="D118">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628383D6</tstamp>
+    </comp>
+    <comp ref="D119">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628383DC</tstamp>
+    </comp>
+    <comp ref="D120">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628383E2</tstamp>
+    </comp>
+    <comp ref="D131">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628383E8</tstamp>
+    </comp>
+    <comp ref="D132">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628383EE</tstamp>
+    </comp>
+    <comp ref="D133">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628383F4</tstamp>
+    </comp>
+    <comp ref="D134">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628383FA</tstamp>
+    </comp>
+    <comp ref="D135">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838400</tstamp>
+    </comp>
+    <comp ref="D136">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838406</tstamp>
+    </comp>
+    <comp ref="D137">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283840C</tstamp>
+    </comp>
+    <comp ref="D138">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838412</tstamp>
+    </comp>
+    <comp ref="D139">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838418</tstamp>
+    </comp>
+    <comp ref="D140">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283841E</tstamp>
+    </comp>
+    <comp ref="D141">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838424</tstamp>
+    </comp>
+    <comp ref="D142">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283842A</tstamp>
+    </comp>
+    <comp ref="D143">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838430</tstamp>
+    </comp>
+    <comp ref="D144">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838436</tstamp>
+    </comp>
+    <comp ref="D145">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283843C</tstamp>
+    </comp>
+    <comp ref="D146">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838442</tstamp>
+    </comp>
+    <comp ref="D147">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838448</tstamp>
+    </comp>
+    <comp ref="D148">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283844E</tstamp>
+    </comp>
+    <comp ref="D149">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838454</tstamp>
+    </comp>
+    <comp ref="D150">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283845A</tstamp>
+    </comp>
+    <comp ref="D151">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838460</tstamp>
+    </comp>
+    <comp ref="D152">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838466</tstamp>
+    </comp>
+    <comp ref="D153">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283846C</tstamp>
+    </comp>
+    <comp ref="D154">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838472</tstamp>
+    </comp>
+    <comp ref="D155">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838478</tstamp>
+    </comp>
+    <comp ref="D156">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283847E</tstamp>
+    </comp>
+    <comp ref="D157">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838484</tstamp>
+    </comp>
+    <comp ref="D158">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283848A</tstamp>
+    </comp>
+    <comp ref="D159">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838490</tstamp>
+    </comp>
+    <comp ref="D160">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838496</tstamp>
+    </comp>
+    <comp ref="D161">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283849C</tstamp>
+    </comp>
+    <comp ref="D162">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283853A</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838690</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C134723</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628386A2</tstamp>
+    </comp>
+    <comp ref="TP36">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283875B</tstamp>
+    </comp>
+    <comp ref="TP35">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838761</tstamp>
+    </comp>
+    <comp ref="TP34">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838767</tstamp>
+    </comp>
+    <comp ref="TP33">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283876D</tstamp>
+    </comp>
+    <comp ref="TP32">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838773</tstamp>
+    </comp>
+    <comp ref="TP31">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838779</tstamp>
+    </comp>
+    <comp ref="TP30">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283877F</tstamp>
+    </comp>
+    <comp ref="TP29">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838785</tstamp>
+    </comp>
+    <comp ref="TP28">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283878B</tstamp>
+    </comp>
+    <comp ref="TP27">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838791</tstamp>
+    </comp>
+    <comp ref="TP19">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>62838797</tstamp>
+    </comp>
+    <comp ref="TP20">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>6283879D</tstamp>
+    </comp>
+    <comp ref="TP21">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628387A3</tstamp>
+    </comp>
+    <comp ref="TP22">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628387A9</tstamp>
+    </comp>
+    <comp ref="TP23">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628387AF</tstamp>
+    </comp>
+    <comp ref="TP24">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628387B5</tstamp>
+    </comp>
+    <comp ref="TP25">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628387BB</tstamp>
+    </comp>
+    <comp ref="TP26">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628387C1</tstamp>
+    </comp>
+    <comp ref="D85">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid2/" tstamps="/627E4EBD/"/>
+      <tstamp>628382D4</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>TM1638</value>
+      <footprint>Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C19187</field>
+      </fields>
+      <libsource lib="traintracker-rescue" part="TM1638-tm1638" description=""/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E553</tstamp>
+    </comp>
+    <comp ref="D163">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E55B</tstamp>
+    </comp>
+    <comp ref="D164">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E561</tstamp>
+    </comp>
+    <comp ref="D166">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E567</tstamp>
+    </comp>
+    <comp ref="D167">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E56D</tstamp>
+    </comp>
+    <comp ref="D168">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E573</tstamp>
+    </comp>
+    <comp ref="D169">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E579</tstamp>
+    </comp>
+    <comp ref="D170">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E57F</tstamp>
+    </comp>
+    <comp ref="D171">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E585</tstamp>
+    </comp>
+    <comp ref="D172">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E58B</tstamp>
+    </comp>
+    <comp ref="D173">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E591</tstamp>
+    </comp>
+    <comp ref="D174">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E597</tstamp>
+    </comp>
+    <comp ref="D175">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E59D</tstamp>
+    </comp>
+    <comp ref="D176">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E5A3</tstamp>
+    </comp>
+    <comp ref="D177">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E5A9</tstamp>
+    </comp>
+    <comp ref="D178">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E5AF</tstamp>
+    </comp>
+    <comp ref="D179">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E5B5</tstamp>
+    </comp>
+    <comp ref="D180">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E5BB</tstamp>
+    </comp>
+    <comp ref="D181">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E5C1</tstamp>
+    </comp>
+    <comp ref="D182">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E5C7</tstamp>
+    </comp>
+    <comp ref="D183">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E5CD</tstamp>
+    </comp>
+    <comp ref="D184">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E5D3</tstamp>
+    </comp>
+    <comp ref="D185">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E5D9</tstamp>
+    </comp>
+    <comp ref="D186">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E5DF</tstamp>
+    </comp>
+    <comp ref="D187">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E5E5</tstamp>
+    </comp>
+    <comp ref="D188">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E5EB</tstamp>
+    </comp>
+    <comp ref="D189">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E5F1</tstamp>
+    </comp>
+    <comp ref="D190">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E5F7</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E5FD</tstamp>
+    </comp>
+    <comp ref="D202">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E603</tstamp>
+    </comp>
+    <comp ref="D203">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E609</tstamp>
+    </comp>
+    <comp ref="D204">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E60F</tstamp>
+    </comp>
+    <comp ref="D205">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E615</tstamp>
+    </comp>
+    <comp ref="D206">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E61B</tstamp>
+    </comp>
+    <comp ref="D207">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E621</tstamp>
+    </comp>
+    <comp ref="D208">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E627</tstamp>
+    </comp>
+    <comp ref="D209">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E62D</tstamp>
+    </comp>
+    <comp ref="D210">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E633</tstamp>
+    </comp>
+    <comp ref="D191">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E639</tstamp>
+    </comp>
+    <comp ref="D192">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E63F</tstamp>
+    </comp>
+    <comp ref="D193">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E645</tstamp>
+    </comp>
+    <comp ref="D194">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E64B</tstamp>
+    </comp>
+    <comp ref="D195">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E651</tstamp>
+    </comp>
+    <comp ref="D196">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E657</tstamp>
+    </comp>
+    <comp ref="D197">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E65D</tstamp>
+    </comp>
+    <comp ref="D198">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E663</tstamp>
+    </comp>
+    <comp ref="D199">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E669</tstamp>
+    </comp>
+    <comp ref="D200">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E66F</tstamp>
+    </comp>
+    <comp ref="D211">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E675</tstamp>
+    </comp>
+    <comp ref="D212">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E67B</tstamp>
+    </comp>
+    <comp ref="D213">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E681</tstamp>
+    </comp>
+    <comp ref="D214">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E687</tstamp>
+    </comp>
+    <comp ref="D215">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E68D</tstamp>
+    </comp>
+    <comp ref="D216">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E693</tstamp>
+    </comp>
+    <comp ref="D217">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E699</tstamp>
+    </comp>
+    <comp ref="D218">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E69F</tstamp>
+    </comp>
+    <comp ref="D219">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E6A5</tstamp>
+    </comp>
+    <comp ref="D220">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E6AB</tstamp>
+    </comp>
+    <comp ref="D221">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E6B1</tstamp>
+    </comp>
+    <comp ref="D222">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E6B7</tstamp>
+    </comp>
+    <comp ref="D223">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E6BD</tstamp>
+    </comp>
+    <comp ref="D224">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E6C3</tstamp>
+    </comp>
+    <comp ref="D225">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E6C9</tstamp>
+    </comp>
+    <comp ref="D226">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E6CF</tstamp>
+    </comp>
+    <comp ref="D227">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E6D5</tstamp>
+    </comp>
+    <comp ref="D228">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E6DB</tstamp>
+    </comp>
+    <comp ref="D229">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E6E1</tstamp>
+    </comp>
+    <comp ref="D230">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E6E7</tstamp>
+    </comp>
+    <comp ref="D231">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E6ED</tstamp>
+    </comp>
+    <comp ref="D232">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E6F3</tstamp>
+    </comp>
+    <comp ref="D233">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E6F9</tstamp>
+    </comp>
+    <comp ref="D234">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E6FF</tstamp>
+    </comp>
+    <comp ref="D235">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E705</tstamp>
+    </comp>
+    <comp ref="D236">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E70B</tstamp>
+    </comp>
+    <comp ref="D237">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E711</tstamp>
+    </comp>
+    <comp ref="D238">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E717</tstamp>
+    </comp>
+    <comp ref="D239">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E71D</tstamp>
+    </comp>
+    <comp ref="D240">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E723</tstamp>
+    </comp>
+    <comp ref="D241">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E729</tstamp>
+    </comp>
+    <comp ref="D242">
+      <value>GREEN</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E7C7</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E91D</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C134723</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E92F</tstamp>
+    </comp>
+    <comp ref="TP54">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E9E8</tstamp>
+    </comp>
+    <comp ref="TP53">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E9EE</tstamp>
+    </comp>
+    <comp ref="TP52">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E9F4</tstamp>
+    </comp>
+    <comp ref="TP51">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298E9FA</tstamp>
+    </comp>
+    <comp ref="TP50">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298EA00</tstamp>
+    </comp>
+    <comp ref="TP49">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298EA06</tstamp>
+    </comp>
+    <comp ref="TP48">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298EA0C</tstamp>
+    </comp>
+    <comp ref="TP47">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298EA12</tstamp>
+    </comp>
+    <comp ref="TP46">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298EA18</tstamp>
+    </comp>
+    <comp ref="TP45">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298EA1E</tstamp>
+    </comp>
+    <comp ref="TP37">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298EA24</tstamp>
+    </comp>
+    <comp ref="TP38">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298EA2A</tstamp>
+    </comp>
+    <comp ref="TP39">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298EA30</tstamp>
+    </comp>
+    <comp ref="TP40">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298EA36</tstamp>
+    </comp>
+    <comp ref="TP41">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298EA3C</tstamp>
+    </comp>
+    <comp ref="TP42">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298EA42</tstamp>
+    </comp>
+    <comp ref="TP43">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298EA48</tstamp>
+    </comp>
+    <comp ref="TP44">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298EA4E</tstamp>
+    </comp>
+    <comp ref="D165">
+      <value>RED</value>
+      <footprint>custom:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375444</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/grid3/" tstamps="/62968B7F/"/>
+      <tstamp>6298EA64</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_TRIM">
+      <description>Trim-potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_TRIM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP32-WROOM-32">
+      <aliases>
+        <alias>ESP32-WROOM-32D</alias>
+      </aliases>
+      <description>RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>ESP32?WROOM?32*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32</field>
+        <field name="Footprint">RF_Module:ESP32-WROOM-32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="BiDi"/>
+        <pin num="9" name="IO33" type="BiDi"/>
+        <pin num="10" name="IO25" type="BiDi"/>
+        <pin num="11" name="IO26" type="BiDi"/>
+        <pin num="12" name="IO27" type="BiDi"/>
+        <pin num="13" name="IO14" type="BiDi"/>
+        <pin num="14" name="IO12" type="BiDi"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="IO13" type="BiDi"/>
+        <pin num="17" name="SHD/SD2" type="BiDi"/>
+        <pin num="18" name="SWP/SD3" type="BiDi"/>
+        <pin num="19" name="SCS/CMD" type="BiDi"/>
+        <pin num="20" name="SCK/CLK" type="BiDi"/>
+        <pin num="21" name="SDO/SD0" type="BiDi"/>
+        <pin num="22" name="SDI/SD1" type="BiDi"/>
+        <pin num="23" name="IO15" type="BiDi"/>
+        <pin num="24" name="IO2" type="BiDi"/>
+        <pin num="25" name="IO0" type="BiDi"/>
+        <pin num="26" name="IO4" type="BiDi"/>
+        <pin num="27" name="IO16" type="BiDi"/>
+        <pin num="28" name="IO17" type="BiDi"/>
+        <pin num="29" name="IO5" type="BiDi"/>
+        <pin num="30" name="IO18" type="BiDi"/>
+        <pin num="31" name="IO19" type="BiDi"/>
+        <pin num="32" name="NC" type="NotConnected"/>
+        <pin num="33" name="IO21" type="BiDi"/>
+        <pin num="34" name="RXD0/IO3" type="BiDi"/>
+        <pin num="35" name="TXD0/IO1" type="BiDi"/>
+        <pin num="36" name="IO22" type="BiDi"/>
+        <pin num="37" name="IO23" type="BiDi"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM1117-1.8">
+      <aliases>
+        <alias>LM1117-2.5</alias>
+        <alias>LM1117-3.3</alias>
+        <alias>LM1117-5.0</alias>
+        <alias>TLV1117-15</alias>
+        <alias>TLV1117-18</alias>
+        <alias>TLV1117-25</alias>
+        <alias>TLV1117-33</alias>
+        <alias>TLV1117-50</alias>
+      </aliases>
+      <description>800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-220/TO-252/TO-263/SOT-223</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM1117-1.8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="traintracker-rescue" part="TM1638-tm1638">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TM1638-tm1638</field>
+        <field name="Footprint">Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="input"/>
+        <pin num="2" name="K2" type="input"/>
+        <pin num="3" name="K3" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="SEG1/KS1" type="output"/>
+        <pin num="6" name="SEG2/KS2" type="output"/>
+        <pin num="7" name="SEG3/KS3" type="output"/>
+        <pin num="8" name="SEG4/KS4" type="output"/>
+        <pin num="9" name="SEG5/KS5" type="output"/>
+        <pin num="10" name="SEG6/KS6" type="output"/>
+        <pin num="11" name="SEG7/KS7" type="output"/>
+        <pin num="12" name="SEG8/KS8" type="output"/>
+        <pin num="13" name="SEG9" type="output"/>
+        <pin num="14" name="SEG10" type="output"/>
+        <pin num="15" name="VDD" type="power_in"/>
+        <pin num="16" name="GRID8" type="output"/>
+        <pin num="17" name="GRID7" type="output"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="GRID6" type="output"/>
+        <pin num="20" name="GRID5" type="output"/>
+        <pin num="21" name="GRID4" type="output"/>
+        <pin num="22" name="GRID3" type="output"/>
+        <pin num="23" name="GRID2" type="output"/>
+        <pin num="24" name="GRID1" type="output"/>
+        <pin num="25" name="GND" type="passive"/>
+        <pin num="26" name="DIO" type="BiDi"/>
+        <pin num="27" name="CLK" type="input"/>
+        <pin num="28" name="STB" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Library/Application Support/kicad/library/Jumper.lib</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>/Library/Application Support/kicad/library/RF_Module.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Library/Application Support/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Library/Application Support/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="traintracker-rescue">
+      <uri>/Users/nikos.chan/Documents/kicad/traintracker/traintracker-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D2-Pad2)">
+      <node ref="U1" pin="11"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(JP1-Pad1)">
+      <node ref="U1" pin="12"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="13" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad31)">
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad33)">
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad36)">
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad37)">
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="25" name="GND">
+      <node ref="U1" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="15"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J2" pin="6"/>
+      <node ref="C3" pin="2"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="U4" pin="18"/>
+      <node ref="U4" pin="25"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J4" pin="6"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="39"/>
+      <node ref="U1" pin="38"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U5" pin="18"/>
+      <node ref="U5" pin="25"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U3" pin="25"/>
+      <node ref="U3" pin="18"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="26" name="+3V3">
+      <node ref="Q5" pin="1"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="27" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="28" name="+5V">
+      <node ref="C7" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U5" pin="15"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U5" pin="4"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U4" pin="15"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U3" pin="15"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="29" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="30" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="31" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="32" name="Net-(RV1-Pad2)">
+      <node ref="RV1" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="33" name="Net-(D1-Pad1)">
+      <node ref="R11" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="34" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="35" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="36" name="MOSI_3.3V">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="J4" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="37" name="SCLK_3.3V">
+      <node ref="Q2" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="J4" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="38" name="CS1_3.3V">
+      <node ref="R7" pin="1"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="J4" pin="4"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="39" name="CS0_3.3V">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="23"/>
+      <node ref="J4" pin="3"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="40" name="CS2_3.3V">
+      <node ref="R14" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="J4" pin="5"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="42" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="43" name="Net-(Q2-Pad3)">
+      <node ref="R19" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="44" name="Net-(Q3-Pad3)">
+      <node ref="R8" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="45" name="CS1_5V">
+      <node ref="U4" pin="28"/>
+      <node ref="TP59" pin="1"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="46" name="Net-(Q4-Pad3)">
+      <node ref="R20" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="47" name="Net-(Q5-Pad3)">
+      <node ref="R15" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+    <net code="48" name="MOSI_5V">
+      <node ref="U3" pin="26"/>
+      <node ref="U4" pin="26"/>
+      <node ref="U5" pin="26"/>
+      <node ref="R16" pin="1"/>
+      <node ref="TP55" pin="1"/>
+    </net>
+    <net code="49" name="SCLK_5V">
+      <node ref="U3" pin="27"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U5" pin="27"/>
+      <node ref="TP58" pin="1"/>
+      <node ref="U4" pin="27"/>
+    </net>
+    <net code="50" name="CS0_5V">
+      <node ref="U3" pin="28"/>
+      <node ref="R17" pin="1"/>
+      <node ref="TP56" pin="1"/>
+    </net>
+    <net code="51" name="CS2_5V">
+      <node ref="U5" pin="28"/>
+      <node ref="TP57" pin="1"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="52" name="/TX">
+      <node ref="U1" pin="35"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="53" name="/RX">
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="54" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="55" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="56" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="57" name="/grid1/SEG2">
+      <node ref="U3" pin="6"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D74" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="TP10" pin="1"/>
+      <node ref="D54" pin="2"/>
+      <node ref="D44" pin="2"/>
+      <node ref="D24" pin="2"/>
+      <node ref="D34" pin="2"/>
+      <node ref="D64" pin="2"/>
+    </net>
+    <net code="58" name="/grid1/SEG1">
+      <node ref="D63" pin="2"/>
+      <node ref="D53" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D33" pin="2"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="D43" pin="2"/>
+      <node ref="D23" pin="2"/>
+      <node ref="D73" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="59" name="/grid1/SEG3">
+      <node ref="U3" pin="7"/>
+      <node ref="D75" pin="2"/>
+      <node ref="D45" pin="2"/>
+      <node ref="D35" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D25" pin="2"/>
+      <node ref="D65" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="TP11" pin="1"/>
+      <node ref="D55" pin="2"/>
+    </net>
+    <net code="60" name="/grid1/SEG4">
+      <node ref="TP12" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="D56" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D76" pin="2"/>
+      <node ref="D46" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D66" pin="2"/>
+      <node ref="D36" pin="2"/>
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="61" name="/grid1/SEG5">
+      <node ref="D67" pin="2"/>
+      <node ref="D47" pin="2"/>
+      <node ref="D27" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="U3" pin="9"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D37" pin="2"/>
+      <node ref="D57" pin="2"/>
+      <node ref="D77" pin="2"/>
+      <node ref="TP13" pin="1"/>
+    </net>
+    <net code="62" name="/grid1/SEG6">
+      <node ref="D28" pin="2"/>
+      <node ref="D18" pin="2"/>
+      <node ref="D78" pin="2"/>
+      <node ref="D38" pin="2"/>
+      <node ref="U3" pin="10"/>
+      <node ref="D68" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D48" pin="2"/>
+      <node ref="D58" pin="2"/>
+      <node ref="TP14" pin="1"/>
+    </net>
+    <net code="63" name="/grid1/SEG7">
+      <node ref="D59" pin="2"/>
+      <node ref="D79" pin="2"/>
+      <node ref="D19" pin="2"/>
+      <node ref="U3" pin="11"/>
+      <node ref="D39" pin="2"/>
+      <node ref="D69" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D49" pin="2"/>
+      <node ref="D29" pin="2"/>
+      <node ref="TP15" pin="1"/>
+    </net>
+    <net code="64" name="/grid1/SEG8">
+      <node ref="TP16" pin="1"/>
+      <node ref="D50" pin="2"/>
+      <node ref="D60" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D70" pin="2"/>
+      <node ref="D40" pin="2"/>
+      <node ref="D30" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="U3" pin="12"/>
+      <node ref="D80" pin="2"/>
+    </net>
+    <net code="65" name="/grid1/SEG9">
+      <node ref="U3" pin="13"/>
+      <node ref="D41" pin="2"/>
+      <node ref="D71" pin="2"/>
+      <node ref="D51" pin="2"/>
+      <node ref="D61" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="TP17" pin="1"/>
+      <node ref="D21" pin="2"/>
+      <node ref="D81" pin="2"/>
+      <node ref="D31" pin="2"/>
+    </net>
+    <net code="66" name="/grid1/SEG10">
+      <node ref="U3" pin="14"/>
+      <node ref="D42" pin="2"/>
+      <node ref="D72" pin="2"/>
+      <node ref="D52" pin="2"/>
+      <node ref="TP18" pin="1"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D22" pin="2"/>
+      <node ref="D82" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="D62" pin="2"/>
+    </net>
+    <net code="67" name="/grid1/GRID1">
+      <node ref="D6" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="U3" pin="24"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="68" name="/grid1/GRID2">
+      <node ref="D18" pin="1"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="U3" pin="23"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D22" pin="1"/>
+    </net>
+    <net code="69" name="/grid1/GRID3">
+      <node ref="D23" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="U3" pin="22"/>
+      <node ref="D29" pin="1"/>
+      <node ref="TP3" pin="1"/>
+    </net>
+    <net code="70" name="/grid1/GRID5">
+      <node ref="D51" pin="1"/>
+      <node ref="D44" pin="1"/>
+      <node ref="U3" pin="20"/>
+      <node ref="D45" pin="1"/>
+      <node ref="D46" pin="1"/>
+      <node ref="D47" pin="1"/>
+      <node ref="D48" pin="1"/>
+      <node ref="D49" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D52" pin="1"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="D43" pin="1"/>
+    </net>
+    <net code="71" name="/grid1/GRID6">
+      <node ref="U3" pin="19"/>
+      <node ref="D62" pin="1"/>
+      <node ref="D61" pin="1"/>
+      <node ref="D60" pin="1"/>
+      <node ref="D53" pin="1"/>
+      <node ref="D54" pin="1"/>
+      <node ref="TP6" pin="1"/>
+      <node ref="D55" pin="1"/>
+      <node ref="D56" pin="1"/>
+      <node ref="D57" pin="1"/>
+      <node ref="D58" pin="1"/>
+      <node ref="D59" pin="1"/>
+    </net>
+    <net code="72" name="/grid1/GRID7">
+      <node ref="U3" pin="17"/>
+      <node ref="D72" pin="1"/>
+      <node ref="D71" pin="1"/>
+      <node ref="D70" pin="1"/>
+      <node ref="D69" pin="1"/>
+      <node ref="D68" pin="1"/>
+      <node ref="D67" pin="1"/>
+      <node ref="D66" pin="1"/>
+      <node ref="D65" pin="1"/>
+      <node ref="D64" pin="1"/>
+      <node ref="D63" pin="1"/>
+      <node ref="TP7" pin="1"/>
+    </net>
+    <net code="73" name="/grid1/GRID8">
+      <node ref="TP8" pin="1"/>
+      <node ref="D82" pin="1"/>
+      <node ref="D81" pin="1"/>
+      <node ref="D73" pin="1"/>
+      <node ref="D74" pin="1"/>
+      <node ref="D75" pin="1"/>
+      <node ref="D76" pin="1"/>
+      <node ref="D77" pin="1"/>
+      <node ref="D78" pin="1"/>
+      <node ref="D79" pin="1"/>
+      <node ref="D80" pin="1"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="74" name="/grid1/GRID4">
+      <node ref="D42" pin="1"/>
+      <node ref="D41" pin="1"/>
+      <node ref="U3" pin="21"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D36" pin="1"/>
+      <node ref="D40" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="D37" pin="1"/>
+    </net>
+    <net code="75" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="76" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="77" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="78" name="/grid2/SEG2">
+      <node ref="U4" pin="6"/>
+      <node ref="D104" pin="2"/>
+      <node ref="D154" pin="2"/>
+      <node ref="D84" pin="2"/>
+      <node ref="D124" pin="2"/>
+      <node ref="D144" pin="2"/>
+      <node ref="TP28" pin="1"/>
+      <node ref="D114" pin="2"/>
+      <node ref="D134" pin="2"/>
+      <node ref="D94" pin="2"/>
+    </net>
+    <net code="79" name="/grid2/SEG1">
+      <node ref="U4" pin="5"/>
+      <node ref="D133" pin="2"/>
+      <node ref="D113" pin="2"/>
+      <node ref="D143" pin="2"/>
+      <node ref="TP27" pin="1"/>
+      <node ref="D103" pin="2"/>
+      <node ref="D123" pin="2"/>
+      <node ref="D153" pin="2"/>
+      <node ref="D93" pin="2"/>
+      <node ref="D83" pin="2"/>
+    </net>
+    <net code="80" name="/grid2/SEG3">
+      <node ref="D95" pin="2"/>
+      <node ref="D145" pin="2"/>
+      <node ref="D155" pin="2"/>
+      <node ref="D105" pin="2"/>
+      <node ref="D125" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="D85" pin="2"/>
+      <node ref="TP29" pin="1"/>
+      <node ref="D115" pin="2"/>
+      <node ref="D135" pin="2"/>
+    </net>
+    <net code="81" name="/grid2/SEG4">
+      <node ref="D136" pin="2"/>
+      <node ref="D146" pin="2"/>
+      <node ref="D86" pin="2"/>
+      <node ref="D96" pin="2"/>
+      <node ref="D106" pin="2"/>
+      <node ref="D116" pin="2"/>
+      <node ref="D156" pin="2"/>
+      <node ref="D126" pin="2"/>
+      <node ref="TP30" pin="1"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="82" name="/grid2/SEG5">
+      <node ref="D137" pin="2"/>
+      <node ref="D97" pin="2"/>
+      <node ref="D127" pin="2"/>
+      <node ref="U4" pin="9"/>
+      <node ref="TP31" pin="1"/>
+      <node ref="D157" pin="2"/>
+      <node ref="D147" pin="2"/>
+      <node ref="D117" pin="2"/>
+      <node ref="D107" pin="2"/>
+      <node ref="D87" pin="2"/>
+    </net>
+    <net code="83" name="/grid2/SEG6">
+      <node ref="D108" pin="2"/>
+      <node ref="D98" pin="2"/>
+      <node ref="D128" pin="2"/>
+      <node ref="TP32" pin="1"/>
+      <node ref="D118" pin="2"/>
+      <node ref="D138" pin="2"/>
+      <node ref="D148" pin="2"/>
+      <node ref="D88" pin="2"/>
+      <node ref="U4" pin="10"/>
+      <node ref="D158" pin="2"/>
+    </net>
+    <net code="84" name="/grid2/SEG7">
+      <node ref="D129" pin="2"/>
+      <node ref="TP33" pin="1"/>
+      <node ref="D119" pin="2"/>
+      <node ref="D109" pin="2"/>
+      <node ref="D159" pin="2"/>
+      <node ref="U4" pin="11"/>
+      <node ref="D89" pin="2"/>
+      <node ref="D149" pin="2"/>
+      <node ref="D139" pin="2"/>
+      <node ref="D99" pin="2"/>
+    </net>
+    <net code="85" name="/grid2/SEG8">
+      <node ref="D110" pin="2"/>
+      <node ref="D140" pin="2"/>
+      <node ref="D100" pin="2"/>
+      <node ref="D130" pin="2"/>
+      <node ref="D90" pin="2"/>
+      <node ref="D150" pin="2"/>
+      <node ref="TP34" pin="1"/>
+      <node ref="D120" pin="2"/>
+      <node ref="U4" pin="12"/>
+      <node ref="D160" pin="2"/>
+    </net>
+    <net code="86" name="/grid2/SEG9">
+      <node ref="U4" pin="13"/>
+      <node ref="D161" pin="2"/>
+      <node ref="D131" pin="2"/>
+      <node ref="TP35" pin="1"/>
+      <node ref="D151" pin="2"/>
+      <node ref="D111" pin="2"/>
+      <node ref="D91" pin="2"/>
+      <node ref="D101" pin="2"/>
+      <node ref="D121" pin="2"/>
+      <node ref="D141" pin="2"/>
+    </net>
+    <net code="87" name="/grid2/SEG10">
+      <node ref="D162" pin="2"/>
+      <node ref="D102" pin="2"/>
+      <node ref="U4" pin="14"/>
+      <node ref="D122" pin="2"/>
+      <node ref="D142" pin="2"/>
+      <node ref="D132" pin="2"/>
+      <node ref="TP36" pin="1"/>
+      <node ref="D112" pin="2"/>
+      <node ref="D92" pin="2"/>
+      <node ref="D152" pin="2"/>
+    </net>
+    <net code="88" name="/grid2/GRID1">
+      <node ref="D84" pin="1"/>
+      <node ref="D83" pin="1"/>
+      <node ref="D85" pin="1"/>
+      <node ref="U4" pin="24"/>
+      <node ref="TP19" pin="1"/>
+      <node ref="D91" pin="1"/>
+      <node ref="D92" pin="1"/>
+      <node ref="D90" pin="1"/>
+      <node ref="D89" pin="1"/>
+      <node ref="D88" pin="1"/>
+      <node ref="D87" pin="1"/>
+      <node ref="D86" pin="1"/>
+    </net>
+    <net code="89" name="/grid2/GRID2">
+      <node ref="D96" pin="1"/>
+      <node ref="D97" pin="1"/>
+      <node ref="TP20" pin="1"/>
+      <node ref="U4" pin="23"/>
+      <node ref="D93" pin="1"/>
+      <node ref="D94" pin="1"/>
+      <node ref="D95" pin="1"/>
+      <node ref="D102" pin="1"/>
+      <node ref="D101" pin="1"/>
+      <node ref="D100" pin="1"/>
+      <node ref="D99" pin="1"/>
+      <node ref="D98" pin="1"/>
+    </net>
+    <net code="90" name="/grid2/GRID3">
+      <node ref="U4" pin="22"/>
+      <node ref="D103" pin="1"/>
+      <node ref="D104" pin="1"/>
+      <node ref="D105" pin="1"/>
+      <node ref="D106" pin="1"/>
+      <node ref="D107" pin="1"/>
+      <node ref="D108" pin="1"/>
+      <node ref="D112" pin="1"/>
+      <node ref="D109" pin="1"/>
+      <node ref="D110" pin="1"/>
+      <node ref="D111" pin="1"/>
+      <node ref="TP21" pin="1"/>
+    </net>
+    <net code="91" name="/grid2/GRID5">
+      <node ref="D127" pin="1"/>
+      <node ref="TP23" pin="1"/>
+      <node ref="D126" pin="1"/>
+      <node ref="D125" pin="1"/>
+      <node ref="D124" pin="1"/>
+      <node ref="D128" pin="1"/>
+      <node ref="D129" pin="1"/>
+      <node ref="D130" pin="1"/>
+      <node ref="D123" pin="1"/>
+      <node ref="D131" pin="1"/>
+      <node ref="D132" pin="1"/>
+      <node ref="U4" pin="20"/>
+    </net>
+    <net code="92" name="/grid2/GRID6">
+      <node ref="D142" pin="1"/>
+      <node ref="D141" pin="1"/>
+      <node ref="D140" pin="1"/>
+      <node ref="D139" pin="1"/>
+      <node ref="D138" pin="1"/>
+      <node ref="D137" pin="1"/>
+      <node ref="D136" pin="1"/>
+      <node ref="D135" pin="1"/>
+      <node ref="D134" pin="1"/>
+      <node ref="D133" pin="1"/>
+      <node ref="TP24" pin="1"/>
+      <node ref="U4" pin="19"/>
+    </net>
+    <net code="93" name="/grid2/GRID7">
+      <node ref="TP25" pin="1"/>
+      <node ref="D152" pin="1"/>
+      <node ref="D151" pin="1"/>
+      <node ref="D150" pin="1"/>
+      <node ref="D149" pin="1"/>
+      <node ref="D148" pin="1"/>
+      <node ref="D147" pin="1"/>
+      <node ref="D146" pin="1"/>
+      <node ref="D145" pin="1"/>
+      <node ref="D144" pin="1"/>
+      <node ref="D143" pin="1"/>
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="94" name="/grid2/GRID8">
+      <node ref="D162" pin="1"/>
+      <node ref="U4" pin="16"/>
+      <node ref="D153" pin="1"/>
+      <node ref="D154" pin="1"/>
+      <node ref="D155" pin="1"/>
+      <node ref="D156" pin="1"/>
+      <node ref="D157" pin="1"/>
+      <node ref="D158" pin="1"/>
+      <node ref="D159" pin="1"/>
+      <node ref="D160" pin="1"/>
+      <node ref="D161" pin="1"/>
+      <node ref="TP26" pin="1"/>
+    </net>
+    <net code="95" name="/grid2/GRID4">
+      <node ref="TP22" pin="1"/>
+      <node ref="D113" pin="1"/>
+      <node ref="D114" pin="1"/>
+      <node ref="D115" pin="1"/>
+      <node ref="D116" pin="1"/>
+      <node ref="D117" pin="1"/>
+      <node ref="D118" pin="1"/>
+      <node ref="D119" pin="1"/>
+      <node ref="D122" pin="1"/>
+      <node ref="D121" pin="1"/>
+      <node ref="D120" pin="1"/>
+      <node ref="U4" pin="21"/>
+    </net>
+    <net code="96" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="97" name="Net-(U5-Pad2)">
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="98" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="99" name="/grid3/SEG2">
+      <node ref="D164" pin="2"/>
+      <node ref="TP46" pin="1"/>
+      <node ref="D174" pin="2"/>
+      <node ref="D234" pin="2"/>
+      <node ref="D224" pin="2"/>
+      <node ref="D184" pin="2"/>
+      <node ref="D214" pin="2"/>
+      <node ref="D194" pin="2"/>
+      <node ref="U5" pin="6"/>
+      <node ref="D204" pin="2"/>
+    </net>
+    <net code="100" name="/grid3/SEG1">
+      <node ref="D183" pin="2"/>
+      <node ref="D173" pin="2"/>
+      <node ref="TP45" pin="1"/>
+      <node ref="D203" pin="2"/>
+      <node ref="U5" pin="5"/>
+      <node ref="D163" pin="2"/>
+      <node ref="D193" pin="2"/>
+      <node ref="D233" pin="2"/>
+      <node ref="D223" pin="2"/>
+      <node ref="D213" pin="2"/>
+    </net>
+    <net code="101" name="/grid3/SEG3">
+      <node ref="D195" pin="2"/>
+      <node ref="D215" pin="2"/>
+      <node ref="D175" pin="2"/>
+      <node ref="D165" pin="2"/>
+      <node ref="TP47" pin="1"/>
+      <node ref="D205" pin="2"/>
+      <node ref="U5" pin="7"/>
+      <node ref="D235" pin="2"/>
+      <node ref="D185" pin="2"/>
+      <node ref="D225" pin="2"/>
+    </net>
+    <net code="102" name="/grid3/SEG4">
+      <node ref="U5" pin="8"/>
+      <node ref="D196" pin="2"/>
+      <node ref="D226" pin="2"/>
+      <node ref="D216" pin="2"/>
+      <node ref="D176" pin="2"/>
+      <node ref="D236" pin="2"/>
+      <node ref="TP48" pin="1"/>
+      <node ref="D186" pin="2"/>
+      <node ref="D206" pin="2"/>
+      <node ref="D166" pin="2"/>
+    </net>
+    <net code="103" name="/grid3/SEG5">
+      <node ref="U5" pin="9"/>
+      <node ref="D207" pin="2"/>
+      <node ref="D167" pin="2"/>
+      <node ref="D197" pin="2"/>
+      <node ref="D217" pin="2"/>
+      <node ref="D227" pin="2"/>
+      <node ref="TP49" pin="1"/>
+      <node ref="D237" pin="2"/>
+      <node ref="D187" pin="2"/>
+      <node ref="D177" pin="2"/>
+    </net>
+    <net code="104" name="/grid3/SEG6">
+      <node ref="D178" pin="2"/>
+      <node ref="D228" pin="2"/>
+      <node ref="D188" pin="2"/>
+      <node ref="TP50" pin="1"/>
+      <node ref="D218" pin="2"/>
+      <node ref="D238" pin="2"/>
+      <node ref="U5" pin="10"/>
+      <node ref="D168" pin="2"/>
+      <node ref="D198" pin="2"/>
+      <node ref="D208" pin="2"/>
+    </net>
+    <net code="105" name="/grid3/SEG7">
+      <node ref="D209" pin="2"/>
+      <node ref="D169" pin="2"/>
+      <node ref="D229" pin="2"/>
+      <node ref="D219" pin="2"/>
+      <node ref="D199" pin="2"/>
+      <node ref="TP51" pin="1"/>
+      <node ref="D239" pin="2"/>
+      <node ref="D189" pin="2"/>
+      <node ref="D179" pin="2"/>
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="106" name="/grid3/SEG8">
+      <node ref="D170" pin="2"/>
+      <node ref="D210" pin="2"/>
+      <node ref="D230" pin="2"/>
+      <node ref="D220" pin="2"/>
+      <node ref="D200" pin="2"/>
+      <node ref="D240" pin="2"/>
+      <node ref="D190" pin="2"/>
+      <node ref="D180" pin="2"/>
+      <node ref="U5" pin="12"/>
+      <node ref="TP52" pin="1"/>
+    </net>
+    <net code="107" name="/grid3/SEG9">
+      <node ref="D181" pin="2"/>
+      <node ref="D241" pin="2"/>
+      <node ref="D201" pin="2"/>
+      <node ref="D211" pin="2"/>
+      <node ref="D221" pin="2"/>
+      <node ref="D231" pin="2"/>
+      <node ref="D191" pin="2"/>
+      <node ref="D171" pin="2"/>
+      <node ref="U5" pin="13"/>
+      <node ref="TP53" pin="1"/>
+    </net>
+    <net code="108" name="/grid3/SEG10">
+      <node ref="TP54" pin="1"/>
+      <node ref="D202" pin="2"/>
+      <node ref="D172" pin="2"/>
+      <node ref="D242" pin="2"/>
+      <node ref="U5" pin="14"/>
+      <node ref="D182" pin="2"/>
+      <node ref="D212" pin="2"/>
+      <node ref="D192" pin="2"/>
+      <node ref="D232" pin="2"/>
+      <node ref="D222" pin="2"/>
+    </net>
+    <net code="109" name="/grid3/GRID1">
+      <node ref="D169" pin="1"/>
+      <node ref="D168" pin="1"/>
+      <node ref="D167" pin="1"/>
+      <node ref="D166" pin="1"/>
+      <node ref="D164" pin="1"/>
+      <node ref="D163" pin="1"/>
+      <node ref="U5" pin="24"/>
+      <node ref="D165" pin="1"/>
+      <node ref="D172" pin="1"/>
+      <node ref="D171" pin="1"/>
+      <node ref="TP37" pin="1"/>
+      <node ref="D170" pin="1"/>
+    </net>
+    <net code="110" name="/grid3/GRID2">
+      <node ref="TP38" pin="1"/>
+      <node ref="D175" pin="1"/>
+      <node ref="D176" pin="1"/>
+      <node ref="D177" pin="1"/>
+      <node ref="D178" pin="1"/>
+      <node ref="D179" pin="1"/>
+      <node ref="D173" pin="1"/>
+      <node ref="D174" pin="1"/>
+      <node ref="D180" pin="1"/>
+      <node ref="D181" pin="1"/>
+      <node ref="U5" pin="23"/>
+      <node ref="D182" pin="1"/>
+    </net>
+    <net code="111" name="/grid3/GRID3">
+      <node ref="D188" pin="1"/>
+      <node ref="D189" pin="1"/>
+      <node ref="TP39" pin="1"/>
+      <node ref="D183" pin="1"/>
+      <node ref="D187" pin="1"/>
+      <node ref="D190" pin="1"/>
+      <node ref="D185" pin="1"/>
+      <node ref="D186" pin="1"/>
+      <node ref="D184" pin="1"/>
+      <node ref="U5" pin="22"/>
+      <node ref="D191" pin="1"/>
+      <node ref="D192" pin="1"/>
+    </net>
+    <net code="112" name="/grid3/GRID5">
+      <node ref="D209" pin="1"/>
+      <node ref="TP41" pin="1"/>
+      <node ref="D211" pin="1"/>
+      <node ref="D212" pin="1"/>
+      <node ref="D203" pin="1"/>
+      <node ref="D204" pin="1"/>
+      <node ref="D205" pin="1"/>
+      <node ref="D206" pin="1"/>
+      <node ref="D207" pin="1"/>
+      <node ref="D208" pin="1"/>
+      <node ref="U5" pin="20"/>
+      <node ref="D210" pin="1"/>
+    </net>
+    <net code="113" name="/grid3/GRID6">
+      <node ref="D215" pin="1"/>
+      <node ref="U5" pin="19"/>
+      <node ref="D216" pin="1"/>
+      <node ref="D217" pin="1"/>
+      <node ref="D218" pin="1"/>
+      <node ref="D219" pin="1"/>
+      <node ref="D220" pin="1"/>
+      <node ref="D214" pin="1"/>
+      <node ref="D213" pin="1"/>
+      <node ref="TP42" pin="1"/>
+      <node ref="D221" pin="1"/>
+      <node ref="D222" pin="1"/>
+    </net>
+    <net code="114" name="/grid3/GRID7">
+      <node ref="TP43" pin="1"/>
+      <node ref="D226" pin="1"/>
+      <node ref="D227" pin="1"/>
+      <node ref="D228" pin="1"/>
+      <node ref="D229" pin="1"/>
+      <node ref="D225" pin="1"/>
+      <node ref="D224" pin="1"/>
+      <node ref="D223" pin="1"/>
+      <node ref="D230" pin="1"/>
+      <node ref="D231" pin="1"/>
+      <node ref="D232" pin="1"/>
+      <node ref="U5" pin="17"/>
+    </net>
+    <net code="115" name="/grid3/GRID8">
+      <node ref="D233" pin="1"/>
+      <node ref="D242" pin="1"/>
+      <node ref="TP44" pin="1"/>
+      <node ref="U5" pin="16"/>
+      <node ref="D241" pin="1"/>
+      <node ref="D238" pin="1"/>
+      <node ref="D237" pin="1"/>
+      <node ref="D236" pin="1"/>
+      <node ref="D235" pin="1"/>
+      <node ref="D234" pin="1"/>
+      <node ref="D240" pin="1"/>
+      <node ref="D239" pin="1"/>
+    </net>
+    <net code="116" name="/grid3/GRID4">
+      <node ref="D202" pin="1"/>
+      <node ref="D194" pin="1"/>
+      <node ref="D193" pin="1"/>
+      <node ref="D201" pin="1"/>
+      <node ref="U5" pin="21"/>
+      <node ref="D200" pin="1"/>
+      <node ref="D199" pin="1"/>
+      <node ref="D198" pin="1"/>
+      <node ref="D197" pin="1"/>
+      <node ref="TP40" pin="1"/>
+      <node ref="D196" pin="1"/>
+      <node ref="D195" pin="1"/>
+    </net>
+  </nets>
+</export>

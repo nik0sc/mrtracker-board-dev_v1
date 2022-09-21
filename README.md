@@ -6,7 +6,7 @@
 
 ## What is this?
 
-This is KiCAD schematic and board layout for MRTracker. BOM and centroid (pick and place) files are in the `assembly` directory.
+This is the KiCAD schematic and board layout of MRTracker. BOM and centroid (pick and place) files are in the `assembly` directory.
 
 MRTracker is a physical map of the MRT that tracks the location of trains in near real-time. It is a PCB with an array of LEDs on them and an ESP32 that gets the real-time location of trains. An LED will be lit for every train currently on the network. Currently the North-South and East-West lines are supported.
 
